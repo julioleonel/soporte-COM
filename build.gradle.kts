@@ -19,7 +19,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
-	runtimeOnly("com.mysql:mysql-connector-j")
+	runtimeOnly("mysql:mysql-connector-java:8.0.26") // Asegúrate de que esta línea esté actualizada
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

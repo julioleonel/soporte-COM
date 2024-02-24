@@ -19,6 +19,8 @@ public class Usuario {
     private String password;
     private String email;
 
+    private rol rol;
+
     //Constructor vacio
     public Usuario() {
     }
@@ -80,4 +82,15 @@ public class Usuario {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public rol getRol() {
+        return rol;
+    }
+
+    public void setRol(rol rol) {
+        this.rol = rol;
+    }
+
 }
+
+
